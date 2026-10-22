@@ -1,6 +1,6 @@
 const STORE_CONFIG = {
   // After deploying worker/src/index.js, paste its public URL here.
-  orderEndpoint: "",
+  orderEndpoint: "muddy-firefly-b22b.intensed.workers.dev",
   productsUrl: "./data/products.json",
   discountsUrl: "./data/discounts.json"
 };
