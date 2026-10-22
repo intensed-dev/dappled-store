@@ -102,9 +102,29 @@
       "id": "lordverity-1",
       "name": "1× „Lord Verity“-Banner 2x3",
       "description": "Oh nein, was ist das denn...",
-      "price": 1,
+      "price": 60,
       "itemId": "minecraft:map",
       "image": "https://cdn.discordapp.com/attachments/1560266672462499982/1562794794571530311/lord_verity.png?ex=6adb4992&is=6ad9f812&hm=df9497c05d3d90b606c8fad5fa21a541552f56d5b457ade58b7caca8b5fcf93f",
+      "category": "Banner & Map-Arts",
+      "active": true
+    },
+    {
+      "id": "lordverity-2",
+      "name": "1× „Lord Verity Squished“-Banner 2x2",
+      "description": "Der Brainrot geht weiter",
+      "price": 60,
+      "itemId": "minecraft:map",
+      "image": "https://media.essential.gg/14b21354-4935-4b6c-9f21-476815712a23",
+      "category": "Banner & Map-Arts",
+      "active": true
+    },
+    {
+      "id": "aurafarmer-1",
+      "name": "1× „Aurafarmer“-XXL Banner 8x8",
+      "description": "...",
+      "price": 500,
+      "itemId": "minecraft:map",
+      "image": "https://cdn.discordapp.com/attachments/1546923805992034449/1562796771430637638/image.png?ex=6adb4b69&is=6ad9f9e9&hm=bbf80e29fd4129f335172827b8be5b4332c03ff1e31f367792e9374a10cc3abe",
       "category": "Banner & Map-Arts",
       "active": true
     }
