@@ -3,7 +3,7 @@ const json = (data, status = 200, origin = "*") => new Response(JSON.stringify(d
   headers: {
     "content-type": "application/json; charset=utf-8",
     "access-control-allow-origin": origin,
-    "access-control-allow-methods": "POST, OPTIONS",
+    "access-control-allow-methods": "GET, POST, OPTIONS",
     "access-control-allow-headers": "Content-Type"
   }
 });
@@ -17,12 +17,14 @@ export default {
     if (request.method === "OPTIONS") {
       return new Response(null, { status: 204, headers: {
         "access-control-allow-origin": allowedOrigin,
-        "access-control-allow-methods": "POST, OPTIONS",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
         "access-control-allow-headers": "Content-Type"
       }});
     }
     if (origin && allowedOrigin && origin !== allowedOrigin) return json({ error: "Origin nicht erlaubt." }, 403, allowedOrigin);
-    if (request.method !== "POST") return json({ error: "Nur POST ist erlaubt." }, 405, allowedOrigin);
+    // Public health check only. Never expose DISCORD_WEBHOOK_URL to browser clients.
+    if (request.method === "GET") return json({ ok: true, service: "Dappled Store", message: "Bestellservice erreichbar. Bestellungen werden per POST übermittelt." }, 200, allowedOrigin);
+    if (request.method !== "POST") return json({ error: "Nur GET und POST sind erlaubt." }, 405, allowedOrigin);
     if (!env.DISCORD_WEBHOOK_URL) return json({ error: "Bestellservice ist noch nicht konfiguriert." }, 503, allowedOrigin);
 
     let body;
