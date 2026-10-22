@@ -209,7 +209,7 @@ function showPlayerPreview() {
     showToast("Bitte einen gültigen Minecraft-Namen (3–16 Zeichen) eingeben.");
     return false;
   }
-  const imageUrl = `https://mc-heads.net/avatar/${encodeURIComponent(name)}/64`;
+  const imageUrl = `https://render.crafty.gg/2d/head/${encodeURIComponent(name)}?size=128`;
   preview.innerHTML = `<img src="${imageUrl}" alt="Minecraft-Kopf von ${escapeHtml(name)}"><div><strong>${escapeHtml(name)}</strong><small>Minecraft-Spielerprofil-Vorschau</small></div>`;
   preview.classList.remove("hidden");
   return true;
