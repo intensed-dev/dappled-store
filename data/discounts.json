@@ -1,0 +1,20 @@
+{
+  "discounts": [
+    {
+      "code": "FOREST5",
+      "type": "percent",
+      "value": 5,
+      "active": false,
+      "description": "Beispielcode – vor Nutzung aktivieren."
+    }
+  ],
+  "creators": [
+    {
+      "code": "DAPPLED",
+      "creator": "Dappled Trio",
+      "active": true,
+      "commissionPercent": 5
+    }
+  ],
+  "note": "Beispielcodes. In einer echten Bestellung müssen Codes serverseitig geprüft werden."
+}
