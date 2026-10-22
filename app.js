@@ -148,7 +148,7 @@ function renderCart() {
   $("#drawer-count").textContent = count ? `(${count})` : "";
   $("#drawer-empty").classList.toggle("hidden", state.cart.length > 0);
   $("#drawer-items").classList.toggle("hidden", state.cart.length === 0);
-  $("#drawer-footer").classList.toggle("hidden", state.cart.length === 0);
+  $(".drawer-footer").classList.toggle("hidden", state.cart.length === 0);
   $("#drawer-items").innerHTML = state.cart.map(item => `
     <div class="drawer-item">
       <img src="${escapeHtml(cartItemImage(item))}" alt="" onerror="this.style.visibility='hidden'">
