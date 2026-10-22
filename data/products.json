@@ -36,6 +36,7 @@
       "description": "Proviant für unterwegs.",
       "price": 2,
       "itemId": "minecraft:bread",
+      "image": "https://blocksitems.com/api/v2/items/minecraft:bread/icon.png?size=128",
       "category": "Nahrung",
       "active": true
     },
@@ -59,7 +60,7 @@
     },
     {
       "id": "wanted-clipf-1",
-      "name": "1× „Wanted Clipf“-Banner",
+      "name": "1× „Wanted Clipf“-Banner 2x2",
       "description": "Deko? Wir sind uns da nicht so sicher.",
       "price": 1,
       "itemId": "minecraft:map",
