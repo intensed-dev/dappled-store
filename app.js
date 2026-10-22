@@ -107,7 +107,7 @@ function renderPacks() {
   $$("[data-add-pack]").forEach(button => button.addEventListener("click", () => {
     const pack = PACKS.find(entry => entry.id === button.dataset.addPack);
     if (!pack) return;
-    addToCart({ id: `pack-${pack.id}`, kind: "pack", name: `Dappled Dollar: ${pack.name}`, price: 0, diamonds: pack.diamonds, output: pack.output, itemId: "minecraft:gold_nugget", image: "https://mc.nerothe.com/img/1.21.4/minecraft_gold_nugget.png" });
+    addToCart({ id: `pack-${pack.id}`, kind: "pack", name: `Dappled Dollar: ${pack.name}`, price: 0, diamonds: pack.diamonds, output: pack.output, itemId: "minecraft:gold_nugget", image: blockItemsImage("minecraft:gold_nugget") });
   }));
 }
 function renderCategories() {
