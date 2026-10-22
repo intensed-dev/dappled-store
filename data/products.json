@@ -1,0 +1,42 @@
+{
+  "currency": "D$",
+  "products": [
+    {
+      "id": "poplar-log-32",
+      "name": "32× Poplar Log",
+      "description": "32 Poplar Logs für dein nächstes Bauprojekt.",
+      "price": 5,
+      "itemId": "minecraft:oak_log",
+      "image": "https://mc.nerothe.com/img/1.21.4/minecraft_oak_log.png",
+      "category": "Holz",
+      "active": true
+    },
+    {
+      "id": "oak-planks-64",
+      "name": "64× Oak Planks",
+      "description": "Ein Stack Eichenbretter.",
+      "price": 3,
+      "itemId": "minecraft:oak_planks",
+      "category": "Holz",
+      "active": true
+    },
+    {
+      "id": "torch-32",
+      "name": "32× Torch",
+      "description": "Licht für dunkle Ecken und lange Tunnel.",
+      "price": 2,
+      "itemId": "minecraft:torch",
+      "category": "Utility",
+      "active": true
+    },
+    {
+      "id": "bread-16",
+      "name": "16× Bread",
+      "description": "Proviant für unterwegs.",
+      "price": 2,
+      "itemId": "minecraft:bread",
+      "category": "Nahrung",
+      "active": true
+    }
+  ]
+}
