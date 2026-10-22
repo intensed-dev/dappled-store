@@ -7,6 +7,7 @@
       "description": "32 Poplar Logs für dein nächstes Bauprojekt.",
       "price": 5,
       "itemId": "minecraft:poplar_log",
+      "image": "https://blocksitems.com/api/v2/icon/minecraft:poplar_log.png?size=128",
       "category": "Natur",
       "active": true
     },
@@ -16,6 +17,7 @@
       "description": "32 Stripped Poplar Logs für eine tolle Hütte.",
       "price": 5,
       "itemId": "minecraft:stripped_poplar_log",
+      "image": "https://blocksitems.com/api/v2/icon/minecraft:stripped_poplar_log.png?size=128",
       "category": "Natur",
       "active": true
     },
