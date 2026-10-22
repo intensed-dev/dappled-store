@@ -28,7 +28,8 @@ const $$ = (selector) => [...document.querySelectorAll(selector)];
 const money = (value) => `${Number(value || 0).toLocaleString("de-DE", { maximumFractionDigits: 2 })} D$`;
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
 const slugName = (id) => String(id || "").split(":").pop().replaceAll("_", " ");
-const blockItemsImage = (itemId, size = 128) => `https://blocksitems.com/api/latest/icon/${encodeURIComponent(String(itemId || "minecraft:barrier"))}.png?size=${size}`;
+const blockItemsImage = (itemId, size = 128) =>
+  `https://blocksitems.com/api/latest/icon/${encodeURIComponent(String(itemId || "minecraft:barrier"))}.png?size=${size}`;
 const imageFor = (product) =>
   product.image || blockItemsImage(product.itemId);
 
