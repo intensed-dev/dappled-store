@@ -1,11 +1,11 @@
 {
   "discounts": [
     {
-      "code": "FOREST5",
+      "code": "ERÖFFNUNG20",
       "type": "percent",
-      "value": 5,
-      "active": false,
-      "description": "Beispielcode – vor Nutzung aktivieren."
+      "value": 20,
+      "active": true,
+      "description": "Dieser Code ist für die Eröffnung des Stores/die Website. Nur gültig bis zum 7.11.2026."
     }
   ],
   "creators": [
@@ -16,5 +16,5 @@
       "commissionPercent": 5
     }
   ],
-  "note": "Beispielcodes. In einer echten Bestellung müssen Codes serverseitig geprüft werden."
+  "note": ""
 }
