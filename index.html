@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10150f">
+  <meta name="description" content="Der offizielle Shop des Dappled-Trios auf MineDistrict.">
+  <title>Dappled Store — Zuhause im Dappled Forest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://api.mcsrvstat.us">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span class="announcement-dot"></span> DAPPLED STORE <span class="announcement-divider">/</span> Der Shop des Dappled-Trios auf MineDistrict</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Dappled Store Startseite">
+      <span class="brand-mark" aria-hidden="true">D</span><span class="brand-copy"><strong>DAPPLED</strong><small>FOREST TRADING CO.</small></span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+      <a href="#home" data-nav="home" class="active">Startseite</a>
+      <a href="#packs" data-nav="packs">Dappled Dollar</a>
+      <a href="#shop" data-nav="shop">Produkte</a>
+    </nav>
+    <button class="cart-button" id="open-cart" aria-label="Warenkorb öffnen"><span class="cart-icon">▤</span> Warenkorb <span class="cart-count" id="cart-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="view active" id="view-home" data-view="home">
+      <section class="hero">
+        <div class="hero-grid"></div><div class="hero-glow"></div>
+        <div class="hero-content">
+          <div class="eyebrow"><span class="eyebrow-line"></span> GUTER HANDEL. GUTE NACHBARSCHAFT.</div>
+          <h1>Willkommen<br>im <span>Dappled Forest.</span></h1>
+          <p class="hero-text">Dein nächster Lieblingsblock wartet schon. Entdecke die Waren des Dappled-Trios — direkt aus dem Wald, für MineDistrict.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#shop">Shop entdecken <span>↗</span></a><a class="button button-quiet" href="#packs">Dappled Dollar ansehen <span>→</span></a></div>
+          <div class="hero-footnote"><span class="status-pill"><span></span> HANDVERLESEN IM WALD</span><span>beam2me · Omgleo · _Intense</span></div>
+        </div>
+        <div class="hero-art" aria-label="Dappled Dollar und Waldinspiration">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="coin coin-back">D<span>$</span></div><div class="coin coin-front"><span class="coin-leaf">✳</span><strong>D$</strong><small>DAPPLED<br>DOLLAR</small></div>
+          <div class="floating-tag tag-top"><span class="tag-dot"></span> FOREST APPROVED</div>
+          <div class="floating-tag tag-bottom"><span>✦</span> EIN WALD. DREI HÄNDLER.</div>
+          <div class="art-caption">EST. IN THE DAPPLED FOREST <span>—</span> MINE DISTRICT</div>
+        </div>
+      </section>
+      <section class="ticker" aria-label="Shop-Hinweis"><span>●</span> GUTE PREISE, DIREKT AUS DEM DAPPLED FOREST <span class="ticker-star">✳</span> BEZAHLUNG INGAME <span class="ticker-star">✳</span> GEMEINSAM HANDELN <span class="ticker-star">✳</span></section>
+      <section class="section featured-section">
+        <div class="section-heading"><div><div class="eyebrow">DER WALD HAT WAS ZU BIETEN</div><h2>Ein guter Deal<br>liegt auf der Hand.</h2></div><a href="#shop" class="text-link">Alle Produkte <span>↗</span></a></div>
+        <div class="feature-grid">
+          <article class="feature-card feature-green"><div class="feature-number">01 / WÄHRUNG</div><div class="feature-icon">D<span>$</span></div><h3>Erst Dollar.<br>Dann shoppen.</h3><p>Hol dir Dappled Dollar und bezahle damit deine nächste Ladung Waren.</p><a href="#packs" class="text-link">Packs ansehen <span>↗</span></a></article>
+          <article class="feature-card feature-cream"><div class="feature-number">02 / SORTIMENT</div><div class="feature-illustration"><img src="https://mc.nerothe.com/img/1.21.4/minecraft_oak_log.png" alt="Minecraft Eichenstamm" loading="lazy"></div><h3>Was der Wald<br>hergibt.</h3><p>Stöbere durch das aktuelle Angebot vom Dappled-Trio.</p><a href="#shop" class="text-link">Zum Sortiment <span>↗</span></a></article>
+          <article class="feature-card feature-dark"><div class="feature-number">03 / FAIRER HANDEL</div><div class="feature-stamp">DAPPLED<br><span>TRIO</span></div><h3>Von uns.<br>Für MineDistrict.</h3><p>Ein kleiner Shop aus dem Wald — betrieben von beam2me, Omgleo und _Intense.</p><a href="#shop" class="text-link">Handel starten <span>↗</span></a></article>
+        </div>
+      </section>
+      <section class="quote-band"><span class="quote-mark">“</span><p>Der beste Handel beginnt nicht an der Kasse.<br><strong>Sondern mit einem guten Nachbarn.</strong></p><span class="quote-credit">— DAPPLED TRIO</span></section>
+    </section>
+
+    <section class="view" id="view-packs" data-view="packs">
+      <div class="page-hero"><div class="eyebrow">DEINE WALD-WÄHRUNG</div><h1>Dappled <span>Dollar.</span></h1><p>Diamanten rein, D$ raus. Je größer das Pack, desto mehr bekommst du für deine Dias.</p><div class="page-note"><span>✳</span> Website-Preis: 1 Dia günstiger bei allen Packs außer Trinkgeld.</div></div>
+      <section class="section pack-section"><div class="section-heading"><div><div class="eyebrow">WÄHLE DEIN PACK</div><h2>Einmal auffüllen.</h2></div><span class="muted-label">PREISE IN DIAMANTEN</span></div><div class="pack-grid" id="pack-grid"></div><p class="fine-print">Der Kauf wird nach der Bestellung manuell ingame abgewickelt. Bitte halte deinen Minecraft-Namen bereit.</p></section>
+    </section>
+
+    <section class="view" id="view-shop" data-view="shop">
+      <div class="page-hero shop-page-hero"><div class="eyebrow">FRISCH AUS DEM WALD</div><h1>Das <span>Sortiment.</span></h1><p>Such dir was aus. Alles wird in Dappled Dollar bezahlt.</p></div>
+      <section class="section shop-section">
+        <div class="shop-toolbar"><label class="search-box"><span>⌕</span><input id="product-search" type="search" placeholder="Produkte suchen …" autocomplete="off"></label><div class="category-filters" id="category-filters"><button class="filter-chip active" data-category="all">Alles</button></div><span class="result-count" id="result-count"></span></div>
+        <div class="product-grid" id="product-grid"></div>
+        <div class="empty-state hidden" id="empty-state"><span>⌕</span><h3>Nichts im Unterholz gefunden.</h3><p>Versuche einen anderen Suchbegriff.</p></div>
+      </section>
+    </section>
+
+    <section class="view" id="view-checkout" data-view="checkout">
+      <div class="page-hero checkout-heading"><div class="eyebrow">FAST GESCHAFFT</div><h1>Dein <span>Handel.</span></h1><p>Prüfe deine Bestellung und gib deine Daten an. Bezahlt wird anschließend manuell ingame.</p></div>
+      <section class="section checkout-layout">
+        <div class="checkout-main">
+          <div class="checkout-card"><div class="card-title"><span>01</span><div><h2>Wer kauft hier?</h2><p>Dein Minecraft-Profil gehört zur Bestellung.</p></div></div><label class="field-label" for="minecraft-name">Minecraft-Name</label><div class="player-field"><input id="minecraft-name" maxlength="16" autocomplete="off" placeholder="DeinSpielername"><button id="preview-player" class="button button-secondary">Profil anzeigen</button></div><div id="player-preview" class="player-preview hidden"></div><p class="field-hint">Bitte verwende deinen exakten Java-Spielernamen.</p></div>
+          <div class="checkout-card"><div class="card-title"><span>02</span><div><h2>Codes & Extras</h2><p>Creator unterstützen und Rabatt nutzen.</p></div></div><label class="field-label" for="creator-code">Creator-Code <span class="optional">OPTIONAL</span></label><div class="code-field"><input id="creator-code" placeholder="z. B. DAPPLED" maxlength="32"><span class="code-status" id="creator-status"></span></div><p class="field-hint">Der Creator erhält 5 % des rabattierten Produktwerts in Dappled Dollar.</p><label class="field-label" for="discount-code">Rabattcode <span class="optional">OPTIONAL</span></label><div class="code-field"><input id="discount-code" placeholder="Rabattcode eingeben" maxlength="32"><button id="apply-codes" class="button button-secondary">Prüfen</button></div><div class="code-message" id="code-message" aria-live="polite"></div></div>
+          <div class="checkout-card"><div class="card-title"><span>03</span><div><h2>Bestellung prüfen</h2><p>Nach dem Absenden stimmen wir die Bezahlung ingame ab.</p></div></div><div id="checkout-items" class="checkout-items"></div><div class="checkout-total"><span>Gesamtbetrag</span><strong id="checkout-total">0 D$</strong></div><p class="manual-note">Das ist noch keine automatische Zahlung. Nach dem Absenden wird eine Bestellanfrage übermittelt; die Übergabe und Zahlung erfolgen manuell ingame.</p><button id="submit-order" class="button button-primary button-wide">Bestellung anfragen <span>↗</span></button><div id="order-message" class="order-message" aria-live="polite"></div></div>
+        </div>
+        <aside class="checkout-aside"><div class="aside-card"><div class="eyebrow">DAPPLED STORE</div><h3>Fairer Handel.<br>Klare Preise.</h3><div class="aside-rule"></div><div class="aside-row"><span>Warenwert</span><strong id="aside-subtotal">0 D$</strong></div><div class="aside-row"><span>Rabatt</span><strong id="aside-discount">− 0 D$</strong></div><div class="aside-row total"><span>Zu bezahlen</span><strong id="aside-total">0 D$</strong></div><p>Bitte beachte: Diese Website verwaltet Bestellanfragen, keine automatische Ingame-Zahlung.</p></div></aside>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top"><a class="brand footer-brand" href="#home"><span class="brand-mark">D</span><span class="brand-copy"><strong>DAPPLED</strong><small>FOREST TRADING CO.</small></span></a><p>Ein kleiner Shop aus dem Dappled Forest.<br>Mit Liebe zum Handel auf MineDistrict.</p><a href="#shop" class="text-link">Sortiment ansehen ↗</a></div><div class="footer-bottom"><span>© <span id="year"></span> Dappled Trio · MineDistrict</span><span class="copyright-notice">NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT</span><a href="#home">ZURÜCK NACH OBEN ↑</a></div></footer>
+
+  <div class="cart-backdrop hidden" id="cart-backdrop"></div><aside class="cart-drawer" id="cart-drawer" aria-label="Warenkorb" aria-hidden="true"><div class="drawer-header"><div><div class="eyebrow">DEINE AUSWAHL</div><h2>Warenkorb<span id="drawer-count"></span></h2></div><button id="close-cart" class="icon-button" aria-label="Warenkorb schließen">×</button></div><div class="drawer-items" id="drawer-items"></div><div class="drawer-empty" id="drawer-empty"><span>▤</span><h3>Der Korb ist noch leer.</h3><p>Im Wald gibt's bestimmt etwas für dich.</p><button class="button button-secondary" id="browse-products">Produkte entdecken</button></div><div class="drawer-footer"><div class="drawer-total"><span>Zwischensumme</span><strong id="drawer-total">0 D$</strong></div><button class="button button-primary button-wide" id="go-checkout">Zum Checkout <span>↗</span></button><p>Manuelle Bezahlung ingame · kein automatischer Transfer</p></div></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
