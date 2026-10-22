@@ -42,7 +42,7 @@
       "name": "1× Shrieker",
       "description": "Gefährliche Blöcke mit eigenem Vibe",
       "price": 10,
-      "itemId": "minecraft:shrieker",
+      "itemId": "minecraft:sculk_shrieker",
       "category": "Natur",
       "active": true
     },
