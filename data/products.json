@@ -127,6 +127,16 @@
       "image": "https://cdn.discordapp.com/attachments/1546923805992034449/1562796771430637638/image.png?ex=6adb4b69&is=6ad9f9e9&hm=bbf80e29fd4129f335172827b8be5b4332c03ff1e31f367792e9374a10cc3abe",
       "category": "Banner & Map-Arts",
       "active": true
+    },
+    {
+      "id": "aurafarmer-2",
+      "name": "1× „Feel the Aura“ Banner 4x4",
+      "description": "Fühlst du es auch?",
+      "price": 100,
+      "itemId": "minecraft:map",
+      "image": "https://cdn.discordapp.com/attachments/1560266672462499982/1562798314624385064/aurafarmer_feel_the_aura.png?ex=6adb4cd9&is=6ad9fb59&hm=0612ea63acaff3333833bf6399b9f71a7c8f384f225b478ffc2f43466e4eaade",
+      "category": "Banner & Map-Arts",
+      "active": true
     }
   ]
 }
