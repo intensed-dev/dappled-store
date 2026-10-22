@@ -134,7 +134,7 @@ function renderProducts() {
   $("#product-grid").innerHTML = filtered.map(product => `
     <article class="product-card">
       <div class="product-image"><span class="product-category">${escapeHtml(product.category || "Sonstiges")}</span><img src="${escapeHtml(imageFor(product))}" alt="" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="item-fallback" hidden>▧</span></div>
-      <div class="product-details"><h3>${escapeHtml(product.name)}</h3><div class="product-id">${escapeHtml(product.itemId)}</div>
+      <div class="product-details"><h3>${escapeHtml(product.name)}</h3><div class="product-id">${escapeHtml(product.description)}</div>
       <div class="product-bottom"><span class="product-price">${money(product.price)} <small>/ Stück</small></span><button class="add-button" data-add-product="${escapeHtml(product.id)}" aria-label="${escapeHtml(product.name)} hinzufügen">+</button></div></div>
     </article>`).join("");
   $$("[data-add-product]").forEach(button => button.addEventListener("click", () => {
