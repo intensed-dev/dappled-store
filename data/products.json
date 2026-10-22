@@ -7,7 +7,7 @@
       "description": "32 Poplar Logs für dein nächstes Bauprojekt.",
       "price": 5,
       "itemId": "minecraft:oak_log",
-      "image": "https://mc.nerothe.com/img/1.21.4/minecraft_oak_log.png",
+      "image": "https://blocksitems.com/api/v1/items/minecraft%3Aoak_log/icon?size=128",
       "category": "Holz",
       "active": true
     },
