@@ -97,6 +97,16 @@
       "image": "https://cdn.discordapp.com/attachments/1560266672462499982/1562784190825496596/qrcode_hd.png?ex=6adb3fb2&is=6ad9ee32&hm=35808eaae6041a92a89c0d9b4f976a6c1e5c285924bc87b303ccc455679230f4&",
       "category": "Banner & Map-Arts",
       "active": true
+    },
+    {
+      "id": "lordverity-1",
+      "name": "1× „Lord Verity“-Banner 2x3",
+      "description": "Oh nein, was ist das denn...",
+      "price": 1,
+      "itemId": "minecraft:map",
+      "image": "https://cdn.discordapp.com/attachments/1560266672462499982/1562794794571530311/lord_verity.png?ex=6adb4992&is=6ad9f812&hm=df9497c05d3d90b606c8fad5fa21a541552f56d5b457ade58b7caca8b5fcf93f",
+      "category": "Banner & Map-Arts",
+      "active": true
     }
   ]
 }
