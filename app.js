@@ -1,6 +1,6 @@
 const STORE_CONFIG = {
   // After deploying worker/src/index.js, paste its public URL here.
-  orderEndpoint: "dappled-store.intensed.workers.dev",
+  orderEndpoint: "https://dappled-store.intensed.workers.dev",
   productsUrl: "./data/products.json",
   discountsUrl: "./data/discounts.json"
 };
@@ -28,7 +28,8 @@ const $$ = (selector) => [...document.querySelectorAll(selector)];
 const money = (value) => `${Number(value || 0).toLocaleString("de-DE", { maximumFractionDigits: 2 })} D$`;
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
 const slugName = (id) => String(id || "").split(":").pop().replaceAll("_", " ");
-const imageFor = (product) => product.image || `https://mc.nerothe.com/img/1.21.4/minecraft_${encodeURIComponent(slugName(product.itemId))}.png`;
+const blockItemsImage = (itemId, size = 128) => `https://blocksitems.com/api/v1/items/${encodeURIComponent(String(itemId || "minecraft:barrier"))}/icon?size=${size}`;
+const imageFor = (product) => product.image?.includes("blocksitems.com") ? product.image : blockItemsImage(product.itemId);
 
 function loadCart() {
   try {
@@ -140,7 +141,7 @@ function renderProducts() {
   }));
 }
 function cartItemImage(item) {
-  return item.image || `https://mc.nerothe.com/img/1.21.4/minecraft_${encodeURIComponent(slugName(item.itemId))}.png`;
+  return imageFor(item);
 }
 function renderCart() {
   const count = state.cart.reduce((sum, item) => sum + item.quantity, 0);
