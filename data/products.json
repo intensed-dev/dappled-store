@@ -73,6 +73,8 @@
       "name": "1× „Missing Coppie“-Banner 2x2",
       "description": "Habt ihr ihn gesehen? Wir nicht.",
       "price": 1,
+      "itemId": "minecraft:map",
+      "image": "https://cdn.discordapp.com/attachments/1560266672462499982/1562782316844027975/missing_coppie.png?ex=6adb3df3&is=6ad9ec73&hm=3ee5fc41be8b22db84f21bfa1d55b65299e55a2d9d9a8dff2bd5ff79c3421c70",
       "category": "Banner & Map-Arts",
       "active": true
     },
@@ -81,6 +83,7 @@
       "name": "1× „Store QRCode“-Banner 2x2",
       "description": "Werbung zum Kaufen.",
       "price": 1,
+      "itemId": "minecraft:map",
       "category": "Banner & Map-Arts",
       "active": true
     }
