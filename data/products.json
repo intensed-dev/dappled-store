@@ -79,11 +79,22 @@
       "active": true
     },
     {
-      "id": "qrcode-1",
-      "name": "1× „Store QRCode“-Banner 2x2",
+      "id": "qrcode-sm-1",
+      "name": "1× „Store QRCode“-Banner Small 1x1",
       "description": "Werbung zum Kaufen.",
       "price": 1,
       "itemId": "minecraft:map",
+      "image": "https://cdn.discordapp.com/attachments/1560266672462499982/1562784190825496596/qrcode_hd.png?ex=6adb3fb2&is=6ad9ee32&hm=35808eaae6041a92a89c0d9b4f976a6c1e5c285924bc87b303ccc455679230f4&",
+      "category": "Banner & Map-Arts",
+      "active": true
+    },
+    {
+      "id": "qrcode-md-1",
+      "name": "1× „Store QRCode“-Banner Medium 2x2",
+      "description": "Werbung zum Kaufen, aber größer.",
+      "price": 1,
+      "itemId": "minecraft:map",
+      "image": "https://cdn.discordapp.com/attachments/1560266672462499982/1562784190825496596/qrcode_hd.png?ex=6adb3fb2&is=6ad9ee32&hm=35808eaae6041a92a89c0d9b4f976a6c1e5c285924bc87b303ccc455679230f4&",
       "category": "Banner & Map-Arts",
       "active": true
     }
