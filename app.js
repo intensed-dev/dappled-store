@@ -29,7 +29,7 @@ const money = (value) => `${Number(value || 0).toLocaleString("de-DE", { maximum
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
 const slugName = (id) => String(id || "").split(":").pop().replaceAll("_", " ");
 const blockItemsImage = (itemId, size = 128) =>
-  `https://blocksitems.com/api/latest/icon/${encodeURIComponent(String(itemId || "minecraft:barrier"))}.png?size=${size}`;
+  `https://blocksitems.com/api/v1/blocks/${encodeURIComponent(String(itemId || "minecraft:barrier"))}/icon?size=${size}`;
 const imageFor = (product) =>
   product.image || blockItemsImage(product.itemId);
 
