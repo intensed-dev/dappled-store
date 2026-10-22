@@ -67,6 +67,22 @@
       "image": "https://cdn.discordapp.com/attachments/1560266672462499982/1562549364973641748/mostwanted_cliof.png?ex=6adb0dbf&is=6ad9bc3f&hm=053d24f53e58c6bed530bad883658ac081de5fc68f5831aeaff46a9540b95a8a&",
       "category": "Banner & Map-Arts",
       "active": true
+    },
+    {
+      "id": "missing-coppie-1",
+      "name": "1× „Missing Coppie“-Banner 2x2",
+      "description": "Habt ihr ihn gesehen? Wir nicht.",
+      "price": 1,
+      "category": "Banner & Map-Arts",
+      "active": true
+    },
+    {
+      "id": "qrcode-1",
+      "name": "1× „Store QRCode“-Banner 2x2",
+      "description": "Werbung zum Kaufen.",
+      "price": 1,
+      "category": "Banner & Map-Arts",
+      "active": true
     }
   ]
 }
