@@ -1,0 +1,8 @@
+name = "dappled-store-orders"
+main = "src/index.js"
+compatibility_date = "2026-10-22"
+
+[vars]
+# Do not put the Discord webhook URL here. Add DISCORD_WEBHOOK_URL as an encrypted Worker secret.
+# Set ALLOWED_ORIGIN to your deployed storefront URL before deploying.
+ALLOWED_ORIGIN = "https://intensed-dev.github.io"
